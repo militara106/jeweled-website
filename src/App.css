@@ -1,3 +1,13 @@
+/* Text Effects */
+.introTitle {
+  font-size: 3rem;
+  letter-spacing: 1rem;
+}
+
+.introSub {
+
+}
+
 /* NavBar */
 
 .nav {
@@ -40,6 +50,7 @@
 }
 
 /* Introduction */
+
 .introLogo {
   height: auto;
   width: 15rem;
