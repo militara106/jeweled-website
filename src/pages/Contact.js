@@ -7,7 +7,7 @@ export default function Contact() {
     <Section
           title='Section 4'
           subtitle={dummyText}
-          dark={false}
+          className="secondaryBG"
           id='section4'
         />
   );

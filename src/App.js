@@ -5,6 +5,7 @@ import Intro from './pages/Intro';
 import About from './pages/About';
 import Team from './pages/Team';
 import Contact from './pages/Contact';
+import BottomBar from './Components/BottomBar';
 class App extends Component {
   render() {
     return (
@@ -14,6 +15,7 @@ class App extends Component {
         <About />
         <Team />
         <Contact />
+        <BottomBar />
       </div>
     );
   }

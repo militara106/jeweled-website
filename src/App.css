@@ -1,3 +1,26 @@
+/******** THEME START  ********/
+.introBG {
+  background: #333;
+  color: white;
+}
+
+.primaryBG {
+  background: #333;
+  color: white;
+}
+
+.secondaryBG {
+  background: light;
+  color: black;
+}
+
+.tertiaryBG {
+  background-color: black;
+}
+
+/******** THEME END  ********/
+
+
 /* Text Effects */
 .introTitle {
   font-size: 3rem;
@@ -11,7 +34,6 @@
 /* NavBar */
 
 .nav {
-  background-color: black;
   position: sticky;
   top: 0px;
   width: 100%;
@@ -61,11 +83,6 @@
 .section {
 }
 
-.section-dark {
-  background: #333;
-  color: white;
-}
-
 .section-content {
   max-width: 800px;
   margin: 0 auto;
@@ -73,9 +90,7 @@
 }
 
 .introduction{
-  background-color: #333;
   text-shadow: 2px 2px 4px #000000;
-  color: white;
   text-align: center;
   justify-content: center;
   display: flex;
@@ -84,4 +99,9 @@
   width: 100%;
   margin: auto;
   height: 100vh;
+}
+
+/* Bottom Bar */
+.btnBar {
+
 }

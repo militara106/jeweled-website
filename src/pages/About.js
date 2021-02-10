@@ -7,7 +7,7 @@ export default function About() {
     <Section
           title='Section 2'
           subtitle={dummyText}
-          dark={false}
+          className="secondaryBG"
           id='section2'
         />
   );

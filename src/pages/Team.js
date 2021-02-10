@@ -7,7 +7,7 @@ export default function Team() {
     <Section
           title='Section 3'
           subtitle={dummyText}
-          dark={false}
+          className="primaryBG"
           id='section3'
         />
   );

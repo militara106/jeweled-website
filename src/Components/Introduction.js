@@ -1,13 +1,18 @@
 import React from "react";
 import logo from '../assets/Jlogo2.gif'
+import Fade from 'react-reveal/Fade';
 
-export default function Introduction({ title, subtitle, dark, id }) {
+export default function Introduction({ title, subtitle, id }) {
   return (
-    <div className="section">
+    <div className="section introBG">
       <div className="introduction" id={id}>
       <img className="introLogo" src={logo} alt="Jeweled" />
-        <h1>{title}</h1>
-        <h2>{subtitle}</h2>
+      <Fade bottom>
+        <h1 className="introTitle">{title}</h1>
+      </Fade>
+      <Fade bottom>
+        <h4>{subtitle}</h4>
+      </Fade>
       </div>
     </div>
   );
