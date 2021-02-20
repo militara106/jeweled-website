@@ -8,7 +8,7 @@ export default class Navbar extends Component {
 
   render() {
     return (
-      <nav className="nav tertiaryBG" id="navbar">
+      <nav className="nav navbarBG" id="navbar">
         <div className="nav-content">
           <ul className="nav-items">
             <li className="nav-item">
@@ -20,7 +20,7 @@ export default class Navbar extends Component {
                 offset={0}
                 duration={500}
               >
-                Section 1
+                Jeweled
               </Link>
             </li>
             <li className="nav-item">
@@ -32,7 +32,7 @@ export default class Navbar extends Component {
                 offset={-40}
                 duration={500}
               >
-                Section 2
+                About the App
               </Link>
             </li>
             <li className="nav-item">
@@ -44,7 +44,7 @@ export default class Navbar extends Component {
                 offset={-40}
                 duration={500}
               >
-                Section 3
+                Who are we?
               </Link>
             </li>
             <li className="nav-item">
@@ -53,10 +53,10 @@ export default class Navbar extends Component {
                 to="section4"
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={-40}
                 duration={500}
               >
-                Section 4
+                Contact Us
               </Link>
             </li>
           </ul>

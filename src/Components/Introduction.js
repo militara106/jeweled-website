@@ -5,8 +5,17 @@ import Fade from 'react-reveal/Fade';
 export default function Introduction({ title, subtitle, id }) {
   return (
     <div className="section introBG">
+      <div class="lines">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+
       <div className="introduction" id={id}>
-      <img className="introLogo" src={logo} alt="Jeweled" />
+
+      {/* LOGO REMOVED, REPLACE WITH STATIC */}
+      {/* <img className="introLogo" src={logo} alt="Jeweled" /> */}
+
       <Fade bottom>
         <h1 className="introTitle">{title}</h1>
       </Fade>

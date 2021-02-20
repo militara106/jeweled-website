@@ -5,7 +5,7 @@ import dummyText from '../DummyText';
 export default function Contact() {
   return (
     <Section
-          title='Section 4'
+          title='Contact Us'
           subtitle={dummyText}
           className="secondaryBG"
           id='section4'
