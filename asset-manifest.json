@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/militara106/jeweled-website/static/css/main.5eadbea3.chunk.css",
-    "main.js": "/militara106/jeweled-website/static/js/main.48d8e6c2.chunk.js",
-    "main.js.map": "/militara106/jeweled-website/static/js/main.48d8e6c2.chunk.js.map",
-    "runtime-main.js": "/militara106/jeweled-website/static/js/runtime-main.1edd0712.js",
-    "runtime-main.js.map": "/militara106/jeweled-website/static/js/runtime-main.1edd0712.js.map",
-    "static/js/2.f8afff90.chunk.js": "/militara106/jeweled-website/static/js/2.f8afff90.chunk.js",
-    "static/js/2.f8afff90.chunk.js.map": "/militara106/jeweled-website/static/js/2.f8afff90.chunk.js.map",
-    "index.html": "/militara106/jeweled-website/index.html",
-    "static/css/main.5eadbea3.chunk.css.map": "/militara106/jeweled-website/static/css/main.5eadbea3.chunk.css.map",
-    "static/js/2.f8afff90.chunk.js.LICENSE.txt": "/militara106/jeweled-website/static/js/2.f8afff90.chunk.js.LICENSE.txt",
-    "static/media/Jlogo2.979aa02d.gif": "/militara106/jeweled-website/static/media/Jlogo2.979aa02d.gif",
-    "static/media/App.css": "/militara106/jeweled-website/static/media/introBG.e9c13635.jpg"
+    "main.css": "/jeweled-website/static/css/main.ae316ce8.chunk.css",
+    "main.js": "/jeweled-website/static/js/main.ec6ddf79.chunk.js",
+    "main.js.map": "/jeweled-website/static/js/main.ec6ddf79.chunk.js.map",
+    "runtime-main.js": "/jeweled-website/static/js/runtime-main.bcdfef19.js",
+    "runtime-main.js.map": "/jeweled-website/static/js/runtime-main.bcdfef19.js.map",
+    "static/js/2.f8afff90.chunk.js": "/jeweled-website/static/js/2.f8afff90.chunk.js",
+    "static/js/2.f8afff90.chunk.js.map": "/jeweled-website/static/js/2.f8afff90.chunk.js.map",
+    "index.html": "/jeweled-website/index.html",
+    "static/css/main.ae316ce8.chunk.css.map": "/jeweled-website/static/css/main.ae316ce8.chunk.css.map",
+    "static/js/2.f8afff90.chunk.js.LICENSE.txt": "/jeweled-website/static/js/2.f8afff90.chunk.js.LICENSE.txt",
+    "static/media/Jlogo2.979aa02d.gif": "/jeweled-website/static/media/Jlogo2.979aa02d.gif",
+    "static/media/App.css": "/jeweled-website/static/media/introBG.e9c13635.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1edd0712.js",
+    "static/js/runtime-main.bcdfef19.js",
     "static/js/2.f8afff90.chunk.js",
-    "static/css/main.5eadbea3.chunk.css",
-    "static/js/main.48d8e6c2.chunk.js"
+    "static/css/main.ae316ce8.chunk.css",
+    "static/js/main.ec6ddf79.chunk.js"
   ]
 }
