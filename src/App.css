@@ -11,12 +11,14 @@
   background: #333;
   color: white;
   border-color: white;
+  text-shadow: 1px 1px 2px black;
 }
 
 .secondaryBG {
-  background: light;
+  background: white;
   color: black;
   border-color: black;
+  text-shadow: 1px 1px 2px lightgrey;
 }
 
 .tertiaryBG {
@@ -47,6 +49,17 @@
 
 .introSub {
   font-size: 1.5rem;
+}
+
+.textLoop {
+  font-size: 2.5rem;
+  margin-top: -2rem;
+  color: #5292ab;
+  text-shadow: 1px 1px 2px black;
+}
+
+.textLoopStatic {
+  color: lightgray;
 }
 
 /* Intro Animation */
@@ -214,8 +227,16 @@ hr.titleLine {
   height: 100vh;
 }
 
+
+/* FlexBoxes */
+
 .horizontalFlex {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.verticalFlex {
+  display: flex;
+  flex-direction: column;
 }
