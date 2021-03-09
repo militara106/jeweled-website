@@ -28,6 +28,14 @@
   border-bottom: 5px solid grey;
 }
 
+.foundersPic{
+  height: 50vh;
+  width: auto;
+  margin: 1rem;
+  border-radius: 3rem;
+  border: 3px solid grey;
+}
+
 /******** THEME END  ********/
 
 
@@ -187,7 +195,7 @@ hr.titleLine {
 }
 
 .section-body {
-  font-size: 2rem;
+  font-size: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -204,4 +212,10 @@ hr.titleLine {
   width: 100%;
   margin: auto;
   height: 100vh;
+}
+
+.horizontalFlex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }

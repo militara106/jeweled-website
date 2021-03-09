@@ -14,8 +14,8 @@ class Intro extends Component {
       <div>
         <Introduction
           title="Jeweled"
-          subtitle={<div className="introSub"> Transitioning into a more meaningful relationship</div>}
           id='section1'
+          content={<div className="introSub"> Transitioning into a more meaningful relationship</div>}
         />
       </div>
     );

@@ -6,9 +6,9 @@ export default function About() {
   return (
     <Section
           title='About'
-          subtitle={dummyText}
           className="secondaryBG"
           id='section2'
+          content={dummyText}
         />
   );
 }

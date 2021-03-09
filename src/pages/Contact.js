@@ -6,9 +6,9 @@ export default function Contact() {
   return (
     <Section
           title='Contact Us'
-          subtitle={dummyText}
           className="secondaryBG"
           id='section4'
+          content={dummyText}
         />
   );
 }
