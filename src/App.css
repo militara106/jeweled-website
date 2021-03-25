@@ -43,17 +43,16 @@
 
 /* Text Effects */
 .introTitle {
-  font-size: 4rem;
+  font-size: 42px;
   letter-spacing: 1rem;
 }
 
 .introSub {
-  font-size: 1.5rem;
+  font-size: 20px;
 }
 
 .textLoop {
-  font-size: 2.5rem;
-  margin-top: -2rem;
+  font-size:20px;
   color: #5292ab;
   text-shadow: 1px 1px 2px black;
 }
@@ -139,7 +138,7 @@
   width: 100%;
   height: 80px;
   z-index: 1000;
-  font-size: 1.5rem;
+  font-size: 14px;
 }
 
 .nav-logo {
@@ -154,21 +153,29 @@
 .nav .nav-content {
   max-width: 900px;
   padding: 0rem 0rem;
-  margin: 0 auto;
+  margin: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 100%;
 }
 
+.nav-items{
+    padding-inline-start: 0px;
+}
+
 .nav-item {
   display: inline;
-  margin-left: 2rem;
+  margin-left: 1vw;
+  margin-right: 1vw;
   color: white;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  padding: 5px;
 }
 
 .nav-item:hover {
-  color: grey;
+  color: grey !important;
   cursor: pointer;
 }
 
@@ -176,7 +183,6 @@
 
 .introLogo {
   height: auto;
-  width: 15rem;
 }
 
 /* Sections */
@@ -189,15 +195,22 @@
 }
 
 .sectionTitle {
-  font-size: 2.5rem;
+  font-size: 30px;
   width: 100%;
   margin-bottom: .5rem;
 }
 
 hr.titleLine {
   margin: auto;
+  margin-bottom: 10vh;
   width: 10%;
   border-top: 3px solid;
+}
+
+hr.titleLineSmall {
+  margin: auto;
+  width: 10%;
+  border-top: 1px solid;
 }
 
 .section-content {
@@ -208,11 +221,20 @@ hr.titleLine {
 }
 
 .section-body {
-  font-size: 1rem;
+  font-size: 30px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   height: 80%;
+}
+
+.content-title{
+ font-size: 20px;
+}
+
+.content-subtext{
+  font-size: 16px;
+  margin: 1rem 2rem 1rem 2rem
 }
 
 .introduction{
@@ -227,6 +249,23 @@ hr.titleLine {
   height: 100vh;
 }
 
+/* React Player */
+
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25% 
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.team-container {
+  width: 100%;
+}
+
 
 /* FlexBoxes */
 
@@ -239,4 +278,9 @@ hr.titleLine {
 .verticalFlex {
   display: flex;
   flex-direction: column;
+}
+
+/* Align */
+.alignStart{
+  align-items: flex-start;
 }

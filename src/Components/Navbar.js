@@ -32,7 +32,7 @@ export default class Navbar extends Component {
                 offset={-40}
                 duration={500}
               >
-                About the App
+                About
               </Link>
             </li>
             <li className="nav-item">
